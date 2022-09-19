@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: SourceCodeProBold;
+  src: url(../css/static/SourceCodePro-Bold.ttf);
+}
+@font-face {
+  font-family: SourceCodeProMedium;
+  src: url(../css/static/SourceCodePro-Medium.ttf);
+}
+@font-face {
+  font-family: SourceCodeProItalic;
+  src: url(../css/static/SourceCodePro-Italic.ttf);
+}
+@font-face {
+  font-family: SourceCodeProRegular;
+  src: url(../css/static/SourceCodePro-Regular.ttf);
+}
+nav {
+  height: 50px;
+  background-image: linear-gradient(to right, #efc2f1, #ffbdda, #ffbeb9, #ffca97, #ffdc82, #eee67d, #d8ef7e, #bbf987, #8cf19e, #61e6b4, #40d9c5, #37cace);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  color: #fff;
+  font-family: SourceCodeProBold;
+  text-decoration: none;
+}
+
+.uvst {
+  height: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/UVST_Header.jpg);
+}
+
+.content {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.content h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: SourceCodeProMedium;
+}
+.content h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.content p {
+  font-size: 20px;
+  color: #fff;
+  font-family: SourceCodeProRegular;
+}
+.content p a {
+  color: #47A62D;
+}
+.content p .title {
+  font-family: SourceCodeProItalic;
+}
+.content .spanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .spanish .span-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.content .spanish .span-lyrics a {
+  color: #fff;
+}
+.content .spanish img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+}
+.content .english {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .english .eng-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.content .english .eng-lyrics a {
+  color: #fff;
+}
+.content .english img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.content iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.efectoContent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.efectoContent h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: SourceCodeProMedium;
+}
+.efectoContent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.efectoContent p {
+  font-size: 20px;
+  color: #fff;
+  font-family: SourceCodeProRegular;
+}
+.efectoContent p a {
+  color: #47A62D;
+}
+.efectoContent p .title {
+  font-family: SourceCodeProItalic;
+}
+.efectoContent .efectoSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.efectoContent .efectoSpanish .efect-span-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 800px;
+  font-family: SourceCodeProRegular;
+}
+.efectoContent .efectoSpanish .efect-span-lyrics a {
+  color: #fff;
+}
+.efectoContent .efectoSpanish img {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+}
+.efectoContent .efectoEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.efectoContent .efectoEnglish .efecto-eng-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.efectoContent .efectoEnglish .efecto-eng-lyrics a {
+  color: #fff;
+}
+.efectoContent .efectoEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.efectoContent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.dosmilContent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.dosmilContent h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: SourceCodeProMedium;
+}
+.dosmilContent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.dosmilContent p {
+  font-size: 20px;
+  color: #fff;
+  font-family: SourceCodeProRegular;
+}
+.dosmilContent p a {
+  color: #47A62D;
+}
+.dosmilContent p .title {
+  font-family: SourceCodeProItalic;
+}
+.dosmilContent .dosmilSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.dosmilContent .dosmilSpanish .six-span-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.dosmilContent .dosmilSpanish .six-span-lyrics a {
+  color: #fff;
+}
+.dosmilContent .dosmilSpanish img {
+  width: 330px;
+  height: 350px;
+}
+.dosmilContent .dosmilEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.dosmilContent .dosmilEnglish .six-eng-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.dosmilContent .dosmilEnglish .six-eng-lyrics a {
+  color: #fff;
+}
+.dosmilContent .dosmilEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.dosmilContent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.agostoContent {
+  padding: 50px;
+  background-color: #fddb9b;
+}
+.agostoContent h1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: SourceCodeProMedium;
+}
+.agostoContent h1 span {
+  font-size: 15px;
+  color: #f20d0d;
+  font-family: SourceCodeProItalic;
+}
+.agostoContent p {
+  font-size: 20px;
+  color: #fff;
+  font-family: SourceCodeProRegular;
+}
+.agostoContent p .title {
+  font-family: SourceCodeProItalic;
+}
+.agostoContent .agostoSpanish {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.agostoContent .agostoSpanish .six-span-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.agostoContent .agostoSpanish .six-span-lyrics a {
+  color: #fff;
+}
+.agostoContent .agostoSpanish img {
+  width: 330px;
+  height: 350px;
+}
+.agostoContent .agostoEnglish {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.agostoContent .agostoEnglish .six-eng-lyrics {
+  color: #fff;
+  font-size: 20px;
+  width: 600px;
+  font-family: SourceCodeProRegular;
+}
+.agostoContent .agostoEnglish .six-eng-lyrics a {
+  color: #fff;
+}
+.agostoContent .agostoEnglish img {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.agostoContent iframe {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+footer {
+  height: 70px;
+  position: relative;
+  background-image: linear-gradient(to right, #efc2f1, #ffbdda, #ffbeb9, #ffca97, #ffdc82, #eee67d, #d8ef7e, #bbf987, #8cf19e, #61e6b4, #40d9c5, #37cace);
+}
+footer p {
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 550px;
+  font-family: SourceCodeProBold;
+  position: absolute;
+}
+
+/*# sourceMappingURL=styles.css.map */

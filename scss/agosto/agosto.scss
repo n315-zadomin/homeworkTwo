@@ -1,0 +1,81 @@
+.agostoContent {
+    padding: 50px;
+    background-color:  #fddb9b;
+
+    h1 {
+        font-size: 40px;
+        color:#fff ;
+        font-family: SourceCodeProMedium;
+    span {
+            font-size: 15px;
+            color:#f20d0d;
+            font-family: SourceCodeProItalic;
+        }
+    }
+
+    p {
+
+        font-size: 20px;
+        color: #fff;
+        font-family: SourceCodeProRegular;
+
+     
+
+        .title {
+            font-family: SourceCodeProItalic;
+        }
+    }
+
+    .agostoSpanish {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        .six-span-lyrics {
+            color: #fff;
+            font-size: 20px;
+            width: 600px;
+            font-family: SourceCodeProRegular;
+
+            a {
+                color: #fff;
+            }
+
+        }
+        img {
+            width: 330px;
+            height: 350px;
+
+        }
+    }
+
+    .agostoEnglish {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+
+        .six-eng-lyrics {
+            color: #fff;
+            font-size: 20px;
+            width: 600px;
+            font-family: SourceCodeProRegular;
+
+            a {
+                color: #fff;
+            }
+
+        }
+        img {
+            width: 450px;
+            height: 300px;
+            border-radius: 25px;
+            margin-top: 30px;
+        }
+    }
+
+    iframe {
+        margin-left: 400px;
+        margin-top: 100px;
+    }
+}
